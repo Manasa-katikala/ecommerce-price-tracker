@@ -1,0 +1,152 @@
+/* ===== Global ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* ===== DASHBOARD ===== */
+.dashboard {
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.dashboard h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* ===== Common Card ===== */
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+  margin-bottom: 25px;
+}
+
+/* ===== Tracked Products Table ===== */
+.table-container {
+  max-width: 700px;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #f1f1f1;
+}
+
+/* ===== Add Product ===== */
+.add-product {
+  max-width: 700px;
+  margin: auto;
+}
+
+.add-product form {
+  display: flex;
+  gap: 10px;
+}
+
+.add-product input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-product button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-product button:hover {
+  background-color: #0056b3;
+}
+
+/* ===== Price History ===== */
+.price-history {
+  max-width: 700px;
+  margin: auto;
+}
+
+.graph-placeholder {
+  height: 220px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 123, 255, 0.2),
+    rgba(0, 123, 255, 0.05)
+  );
+  border-radius: 5px;
+  position: relative;
+}
+
+.graph-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* ===== Alerts (FINAL & PROFESSIONAL) ===== */
+.alerts-page {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 10px;
+}
+
+.alerts-page h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Alert Card */
+.alert-card {
+  background-color: #ffffff;
+  border-left: 6px solid #e74c3c;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover Effect */
+.alert-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Alert Message */
+.alert-card p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Alert Time */
+.alert-card small {
+  display: block;
+  margin-top: 6px;
+  font-size: 13px;
+  color: #777;
+}
