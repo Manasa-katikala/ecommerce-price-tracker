@@ -151,4 +151,43 @@ GitHub:
 https://github.com/Manasa-katikala
 
 LinkedIn:
-https://www.linkedin.com/in/manasa-katikala-a61b09385/
+https://www.linkedin.com/in/manasa-katikala-a61b09385/        
+
+
+---
+
+# 📸 Project Screenshots
+
+## Landing Page
+
+![Landing Page](images/page%201.jpeg)
+
+---
+
+## Login Page
+
+![Login Page](images/page%202.jpeg)
+
+---
+
+## Dashboard
+
+![Dashboard](images/page%203.jpeg)
+
+---
+
+## Add Product
+
+![Add Product](images/page%204.jpeg)
+
+---
+
+## Alerts
+
+![Alerts](images/page%205.jpeg)
+
+---
+
+## Price History
+
+![Price History](images/page%206.jpeg)
